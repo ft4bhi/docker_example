@@ -17,7 +17,7 @@ cd docker_example
 ```bash
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
-source venv\Scripts\activate    # Windows
+venv\Scripts\activate    # Windows
 ```
 ## 2. Install Requirements
 ```bash
