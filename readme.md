@@ -16,9 +16,16 @@ cd docker_example
 ## 1. Create Virtual Environment
 ```bash
 python -m venv venv
+```
+## for linux
+```bash
 source venv/bin/activate  # Linux/Mac
+```
+## for windows
+```bash
 venv\Scripts\activate    # Windows
 ```
+
 ## 2. Install Requirements
 ```bash
 pip install -r requirements.txt
